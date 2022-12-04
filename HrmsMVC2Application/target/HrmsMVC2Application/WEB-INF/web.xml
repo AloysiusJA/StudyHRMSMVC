@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.ja.learning.hrmsmvc.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmployeeController</servlet-name>
+  	<display-name>EmployeeController</display-name>
+  	<description></description>
+  	<servlet-class>com.ja.learning.hrmsmvc.controller.EmployeeController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HRController</servlet-name>
+  	<display-name>HRController</display-name>
+  	<description></description>
+  	<servlet-class>com.ja.learning.hrmsmvc.controller.HRController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeController</servlet-name>
+  	<url-pattern>/EmployeeController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HRController</servlet-name>
+  	<url-pattern>/HRController</url-pattern>
+  </servlet-mapping>
+</web-app>
